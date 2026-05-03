@@ -1,17 +1,11 @@
 # Asymmetric Panel Stochastic Volatility with Cross-Sectional Dependence
 ## A Kalman Filter Approach with Applications
 
-**Authors:** M.A.A. Bin Mohd Amran & F. Furuoka  
-**Affiliation:** Asia-Europe Institute & Faculty of Business and Economics, University of Malaya  
-**Submitted to:** Computational Economics  
-
 ---
 
 ## Overview
 
 This repository contains the replication code and data for the paper:
-
-> Bin Mohd Amran, M.A.A. & Furuoka, F. (2026). *Asymmetric Panel Stochastic Volatility with Cross-Sectional Dependence: A Kalman Filter Approach with Applications.* Submitted to *Computational Economics*.
 
 The paper proposes the **Asymmetric Panel Stochastic Volatility (APSV)** model, a two-stage Kalman filter estimator that simultaneously accommodates:
 - Leverage and size effects in log-volatility dynamics
@@ -145,24 +139,3 @@ h_it  = μ_i + φ * h_{i,t-1} + γ₁ * ε_{i,t-1}
 | A&M 2011 replication | 0.991 | **−0.010** | CCE removes >60% of apparent TOPIX leverage |
 
 ---
-
-## Citation
-
-```bibtex
-@article{binmohd2026apsv,
-  title   = {Asymmetric Panel Stochastic Volatility with Cross-Sectional Dependence:
-             A Kalman Filter Approach with Applications},
-  author  = {Bin Mohd Amran, M.A.A. and Furuoka, F.},
-  journal = {Computational Economics},
-  year    = {2026},
-  note    = {Under review}
-}
-```
-
----
-
-## Contact
-
-**Corresponding author:** M.A.A. Bin Mohd Amran  
-**Email:** [your email]  
-**GitHub:** [https://github.com/afnanarif04](https://github.com/afnanarif04)
